@@ -3,10 +3,34 @@
 	s:STATE_SVEALAND={
 		region_state:SCA={
 			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" }
+			}	
+			create_building={
+				building="building_arms_industry"
+				level=7
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry"  }
+			}
+			create_building={
 				building="building_government_administration"
 				level=4
 				reserves=1
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
+			}
+			create_building={
+				building="building_iron_mine"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
+			}
+			create_building={
+				building="building_steel_mills"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_blister_steel_process" "pm_automation_disabled" "pm_privately_owned_industry" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -82,7 +106,7 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=8
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
@@ -90,6 +114,18 @@
 	}
 	s:STATE_GOTALAND={
 		region_state:SCA={
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" }
+			}	
+			create_building={
+				building="building_arms_industry"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry"  }
+			}			
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -116,7 +152,7 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=6
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
@@ -149,6 +185,12 @@
 	s:STATE_SCANIA={
 		region_state:SCA={
 			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" }
+			}				
+			create_building={
 				building="building_government_administration"
 				level=2
 				reserves=1
@@ -168,13 +210,13 @@
 			}
 			create_building={
 				building="building_arms_industry"
-				level=6
+				level=7
 				reserves=1
 				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry"  }
 			}
 			create_building={
 				building="building_munition_plants"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_percussion_caps" "pm_privately_owned_industry" }
 			}
@@ -220,7 +262,7 @@
 		region_state:SCA={
 			create_building={
 				building="building_logging_camp"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
@@ -339,12 +381,6 @@
 				activate_production_methods={ "pm_basic_shipbuilding" "pm_merchant_guilds_building_shipyards"  }
 			}
 			create_building={
-				building="building_military_shipyards"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_merchant_guilds_building_military_shipyards" "pm_military_shipbuilding_wooden" }
-			}
-			create_building={
 				building="building_furniture_manufacturies"
 				level=5
 				reserves=1
@@ -428,7 +464,7 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
@@ -489,6 +525,12 @@
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
+				building="building_military_shipyards"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_merchant_guilds_building_military_shipyards" "pm_military_shipbuilding_wooden" }
+			}
+			create_building={
 				building="building_construction_sector"
 				level=1
 				reserves=1
@@ -500,12 +542,7 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_shipbuilding"  "pm_merchant_guilds_building_shipyards" }
 			}
-			create_building={
-				building="building_arms_industry"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry"  }
-			}
+			
 			create_building={
 				building="building_logging_camp"
 				level=2
@@ -585,6 +622,12 @@
 				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
+				building="building_military_shipyards"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_merchant_guilds_building_military_shipyards" "pm_military_shipbuilding_wooden" }
+			}
+			create_building={
 				building="building_furniture_manufacturies"
 				level=1
 				reserves=1
@@ -604,7 +647,7 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=2
+				level=8
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
@@ -650,7 +693,7 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=1
+				level=6
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
@@ -666,7 +709,7 @@
 		region_state:SCA={
 			create_building={
 				building="building_logging_camp"
-				level=2
+				level=6
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
@@ -830,13 +873,13 @@
 			}				
 			create_building={
 				building="building_food_industry"
-				level=4
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" "pm_merchant_guilds_building_food_industry" }
 			}
 			create_building={
 				building="building_glassworks"
-				level=6
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_leaded_glass" "pm_disabled_ceramics" "pm_manual_glassblowing" "pm_privately_owned_building_glassworks" }
 			}
@@ -894,12 +937,6 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
-			create_building={
-				building="building_artillery_foundries"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_cannons" "pm_automation_disabled" "pm_merchant_guilds_building_artillery_foundries" }
-			}
 		}
 	}
 	s:STATE_HIGHLANDS={
@@ -924,15 +961,7 @@
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
-			}
-		}
-		region_state:SCA={
-			create_building={
-				building="building_fishing_wharf"
-				level=1
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
