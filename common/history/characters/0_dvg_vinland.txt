@@ -15,5 +15,18 @@
 				meticulous
 			}
 		}
+		create_character = {
+			historical = yes
+			first_name = Kresten 
+			last_name = Sondergaard
+			birth_date = 1788.3.18
+		  	interest_group = ig_intelligentsia
+			ig_leader = yes
+		  	ideology = ideology_radical
+			traits = {
+				charismatic
+				firebrand
+			}
+		}
 	}
 }
